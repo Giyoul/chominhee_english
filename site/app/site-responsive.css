@@ -1,0 +1,151 @@
+@media (max-width: 860px) {
+  .split-heading,
+  .reviews-heading,
+  .story-grid,
+  .director-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .concern-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .concern-card {
+    min-height: 0;
+  }
+
+  .concern-card span {
+    margin-bottom: 24px;
+  }
+
+  .step-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .step-arrow {
+    display: none;
+  }
+
+  .one-to-one {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .director-visual {
+    width: min(520px, 100%);
+    max-height: 620px;
+    margin-inline: auto;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr auto;
+  }
+
+  .footer-inner p {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .brand-character {
+    flex-basis: 42px;
+    width: 42px;
+    height: 46px;
+  }
+
+  .brand-character img {
+    width: 126px;
+    height: 48px;
+  }
+
+  .brand-copy strong,
+  .brand-copy i {
+    font-size: 0.82rem;
+  }
+
+  .brand-copy small {
+    font-size: 0.59rem;
+  }
+
+  .section-block {
+    padding-block: 76px;
+  }
+
+  .philosophy {
+    border-radius: 30px 30px 0 0;
+  }
+
+  .section-heading h2,
+  .story h2,
+  .director h2,
+  .contact h2 {
+    font-size: clamp(2.2rem, 12vw, 3.3rem);
+  }
+
+  .concern-grid {
+    margin-top: 42px;
+  }
+
+  .philosophy-statement {
+    align-items: flex-start;
+    padding: 22px;
+  }
+
+  .step-grid,
+  .program-grid,
+  .credential-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-card {
+    min-height: 240px;
+  }
+
+  .one-to-one {
+    padding: 24px;
+  }
+
+  .one-to-one-title {
+    align-items: flex-start;
+  }
+
+  .program-card ul {
+    grid-template-columns: 1fr;
+  }
+
+  .review-scroller {
+    margin-right: -16px;
+  }
+
+  .story-visual {
+    min-height: 310px;
+    padding: 38px 30px;
+    border-radius: 32px 14px 32px 32px;
+  }
+
+  .director-visual {
+    max-height: 510px;
+  }
+
+  .contact-panel {
+    width: calc(100% - 24px);
+    border-radius: 28px;
+  }
+
+  .contact-actions {
+    display: grid;
+  }
+
+  .mobile-only {
+    display: initial;
+  }
+
+  .footer-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-links {
+    justify-self: start;
+    flex-wrap: wrap;
+  }
+}
